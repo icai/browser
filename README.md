@@ -3,7 +3,7 @@ jQuery browser plugin
 
 A jQuery plugin for browser detection.
 
-version:1.0 beta
+version:1.0.1
 
 
 ##Todo##
@@ -23,30 +23,6 @@ Test for my browser ,just return the following.
     	webkit: true
     }
 
-
-##Notice##
-
- if sure,you can add your Regexs to test others,in here
-
-    t = {
-	    // you can add your Regexs to test others ,in here
-	    msie6: /msie\s+6\.0/,
-	    //msie7: /msie\s+7\.0/,
-	    // msie8: /msie\s+8\.0/,
-	    // msie9: /msie\s+9\.0/,
-	    // msie10: /msie\s+10\.0/,
-	    iPad: /ipad/,
-	    iPhone: /iphone/,
-	    mac:/mac/,
-	    //android:/android/,
-	    //linux:/linux/,
-
-	    mozilla :/(mozilla)(?:.*? rv:([\w.]+))?.*?(gecko)\//,
-	    webkit :/(webkit)[ \/]([\w.]+)/,
-	    chrome:/(chrome)[ \/]([\w.]+)/,
-	    opera :/(opera)(?:.*version)?[ \/]([\w.]+)/,
-	    msie :/(msie)\s+([\w.]+)/
-    }
 
 
 ##License##
